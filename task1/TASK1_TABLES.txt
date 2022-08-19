@@ -1,0 +1,14 @@
+CREATE TABLE TB_dorela_table(
+ENDTOENDID VARCHAR2(15) NOT NULL,
+AMT NUMBER NOT NULL,
+CCY VARCHAR2(4) NOT NULL,
+IBAN VARCHAR2(20) NOT NULL,
+ BIC VARCHAR2(12) NOT NULL);
+
+
+ CREATE TABLE TB_DORELA_xml_table(
+        ID VARCHAR2(40),
+        directory varchar2(100),
+        file_name varchar2(100),
+        xml_data xmltype NOT NULL 
+ );
